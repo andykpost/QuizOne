@@ -1,0 +1,6 @@
+<h1>Enter Your Comment Here</h1>
+<%= simple_form_for @comment do |f| %>
+  <%= f.input :comment %>
+  <br />
+  <%= f.submit 'Create', class: 'btn btn-danger' %>
+<% end %>
